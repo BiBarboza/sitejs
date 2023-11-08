@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+ 
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(97, 55, 107);
+    display: flex;
+    justify-content: end;
+}
+ 
+.icons{
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.modal{
+    position: absolute;
+    right: 0;
+    width: 400px;
+    height: 90%;
+    background-color:#d3d3d3;
+    border: 1px solid black;
+}
+
+.divCard{
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
